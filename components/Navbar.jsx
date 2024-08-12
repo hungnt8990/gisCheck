@@ -133,7 +133,7 @@ const Navbar = () => {
         <div className="h-full overflow-y-auto bg-white px-3 pb-4 dark:bg-gray-800">
           <ul class="space-y-2 font-medium">
             <li>
-              <span class="group flex items-center rounded-lg bg-gray-100 p-2 text-gray-700 transition duration-75 dark:text-white dark:hover:bg-gray-700">
+              <span class="group flex items-center rounded-lg bg-gray-700 p-2 text-gray-700 transition duration-75 dark:text-white dark:hover:bg-gray-700">
                 <span class="ms-3">Kiểm tra dữ liệu</span>
               </span>
             </li>
@@ -155,7 +155,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/contact"
                 class="group flex items-center rounded-lg p-2 text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
               >
@@ -170,7 +170,7 @@ const Navbar = () => {
                   <path d="M14 4H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2ZM2 16v-6h12v6H2Z" />
                 </svg>
                 <span class="ms-3">Components</span>
-              </a>
+              </Link>
             </li>
             <li>
               <a
